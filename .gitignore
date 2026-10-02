@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Build artifacts (ClipSync.app is used by the local LaunchAgent -- keep it on disk, just don't track it)
+*.app/
+.build/
+build/
+__pycache__/
+*.exe
+
+# Compiled binaries produced by `dart compile exe` / `swiftc`
+/clipsync
+macos-menubar/ClipSyncMenuBar
+
+# Dart tooling
+.dart_tool/
+
+# Logs / databases
+*.log
+*.db
